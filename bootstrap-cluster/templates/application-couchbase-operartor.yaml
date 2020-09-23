@@ -13,6 +13,7 @@ spec:
   source:
     chart: couchbase/couchbase-operator
     helm:
+      version: v2
       valueFiles:
       - values.yaml
     repoURL: https://couchbase-partners.github.io/helm-charts/
