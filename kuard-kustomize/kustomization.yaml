@@ -1,0 +1,12 @@
+
+resources:
+- deployment.yaml
+- service.yaml
+
+commonLabels:
+  owner: bipin
+  
+configMapGenerator:
+- name: dynamic-cm
+  files:
+  - application.properties
