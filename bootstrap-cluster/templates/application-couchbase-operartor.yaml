@@ -17,3 +17,7 @@ spec:
       - values.yaml
     repoURL: https://couchbase-partners.github.io/helm-charts/
     targetRevision: 2.0.2
+  syncPolicy:
+    automated:
+      selfHeal: true
+      prune: true

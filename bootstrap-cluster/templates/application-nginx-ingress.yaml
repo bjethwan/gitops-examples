@@ -20,3 +20,7 @@ spec:
       - values.yaml
     repoURL: https://kubernetes-charts.storage.googleapis.com/
     targetRevision: 1.34.2
+  syncPolicy:
+    automated:
+      selfHeal: true
+      prune: true
